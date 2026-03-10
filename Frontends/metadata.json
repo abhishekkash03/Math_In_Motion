@@ -1,0 +1,5 @@
+{
+  "name": "Math Motion Visualizer",
+  "description": "A React application that visualizes mathematical curves and chaotic attractors in 3D using Three.js.",
+  "requestFramePermissions": []
+}

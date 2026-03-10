@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+/* =========================
+   INTERVAL FONT
+========================= */
+
+@font-face {
+  font-family: "Interval";
+  src: url("./assets/fonts/TBJInterval-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Interval";
+  src: url("./assets/fonts/TBJInterval-Light.woff2") format("woff2");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Interval";
+  src: url("./assets/fonts/TBJInterval-Bold.woff2") format("woff2");
+  font-weight: 700;
+}
+
+
+/* =========================
+   MONTECH FONT
+========================= */
+
+@font-face {
+  font-family: "Montech";
+  src: url("./assets/fonts/MONTECHV02-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Montech";
+  src: url("./assets/fonts/MONTECHV02-Light.ttf") format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Montech";
+  src: url("./assets/fonts/MONTECHV02-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+
+/* =========================
+   TAILWIND v4 THEME
+========================= */
+
+@theme {
+  --font-outfit: "Outfit", sans-serif;
+  --font-interval: "Interval", monospace;
+  --font-montech: "Montech", sans-serif;
+}
+
+
+body {
+  font-family: var(--font-interval);
+  background-color: #000;
+  color: #fff;
+}
