@@ -7,10 +7,6 @@ import "katex/dist/katex.min.css";
 export const Landing = () => {
   const navigate = useNavigate();
 
-  const handleComplete = () => {
-    navigate("/formulas");
-  };
-
   return (
     <motion.div
       initial={{ opacity: 0 }}
